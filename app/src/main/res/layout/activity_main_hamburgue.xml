@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aulaltp3.com.myrestaurant.Hamburguer">
+
+    <ImageButton
+        android:id="@+id/hamburguerTriplo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/hamburguertriplo"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="64dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/app_name" />
+
+    <ImageButton
+        android:id="@+id/tvQtdhamburguerSimples"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@+id/tvQtdhamburguerSimples"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hamburguersimples" />
+
+    <TextView
+        android:id="@+id/qtdTripo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:text="Triplo"
+        android:layout_below="@+id/hamburguerTriplo"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/TvQtdsanduicheSaladaFrango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TvQtdsanduicheSaladaFrango"
+        android:layout_centerHorizontal="true"
+        android:text="natural" />
+
+    <TextView
+        android:id="@+id/tvQtdhamburguerSimples"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="simples"
+        android:layout_below="@+id/hamburguerTriplo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp" />
+
+    <ImageButton
+        android:id="@+id/hamburguerChedar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hamburguerchedar"
+        android:layout_below="@+id/qtdTripo"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/hamburguerDuplo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/hamburguerduplo"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_alignTop="@+id/hamburguerChedar"
+        android:layout_toStartOf="@+id/hamburguerPeru" />
+
+    <ImageButton
+        android:id="@+id/hamburguerPeru"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/hamburguerperu"
+        android:background="@null"
+        android:scaleType="fitCenter"
+
+        android:layout_alignTop="@+id/hamburguerDuplo"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tvQtdHamburguerChedar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="chedar"
+        android:layout_below="@+id/hamburguerChedar"
+        android:layout_alignStart="@+id/qtdTripo" />
+
+    <TextView
+        android:id="@+id/tvQtdHamburguerDuplo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="duplo"
+        android:layout_marginStart="14dp"
+        android:layout_above="@+id/hamburguerPicanha"
+        android:layout_alignStart="@+id/hamburguerDuplo" />
+
+    <TextView
+        android:id="@+id/tvQtdHamburguerPeru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="peru"
+        android:layout_above="@+id/hamburguerPicanha"
+        android:layout_alignEnd="@+id/TvQtdsanduicheSaladaFrango"
+        android:layout_marginEnd="25dp" />
+
+    <ImageButton
+        android:id="@+id/hamburguerPicanha"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/hamburguerpicanha"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/tvQtdHamburguerChedar"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/sanduicheNatural"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/sanduichenatural"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_alignTop="@+id/hamburguerPicanha"
+        android:layout_alignStart="@+id/hamburguerDuplo" />
+
+    <ImageButton
+        android:id="@+id/TvQtdsanduicheSaladaFrango"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/sanduicheNatural"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/sanduichesaladafrango" />
+
+    <TextView
+        android:id="@+id/tvQtdHamburguerPicanha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvQtdHamburguerChedar"
+        android:layout_below="@+id/hamburguerPicanha"
+        android:text="picanha" />
+
+    <TextView
+        android:id="@+id/tvQtdSanduicheNatural"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="frango"
+        android:layout_below="@+id/TvQtdsanduicheSaladaFrango"
+        android:layout_alignStart="@+id/tvQtdHamburguerPeru" />
+
+    <ImageButton
+        android:id="@+id/baguete"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/baguete"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvQtdBaguete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baguete"
+        android:layout_centerHorizontal="true"
+        android:text="baguete" />
+</RelativeLayout>

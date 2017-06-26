@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aulaltp3.com.myrestaurant.MainSobremesa">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/casquinhas"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-2dp"
+        android:scaleType="fitCenter"
+        android:background="@null"
+
+
+        />
+
+    <ImageButton
+        android:id="@+id/boloChocolate"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/bolo"
+        android:background="@null"
+        android:scaleType="fitCenter"
+
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="132dp" />
+
+    <ImageButton
+        android:id="@+id/cremePapaya"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/cremepapaya"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="-1dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageButton
+        android:id="@+id/doceLeite"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/doceleite"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageButton
+        android:id="@+id/milkshakeBaunilha"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/milkshakebaunilha"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteY="175dp"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <ImageButton
+        android:id="@+id/milkshakeChocolate"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/milkshakechocolate"
+        tools:layout_editor_absoluteY="175dp"
+        tools:layout_editor_absoluteX="132dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageButton
+        android:id="@+id/petitChocolate"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/petitchocolate"
+        tools:layout_editor_absoluteY="175dp"
+        tools:layout_editor_absoluteX="261dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageButton
+        android:id="@+id/tortaHolandesa"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/tortaholandesa"
+        tools:layout_editor_absoluteY="360dp"
+        tools:layout_editor_absoluteX="-1dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageButton
+        android:id="@+id/acai"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/acai"
+        tools:layout_editor_absoluteY="360dp"
+        tools:layout_editor_absoluteX="132dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageButton
+        android:id="@+id/sundaeMorango"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/sundaemorango"
+        tools:layout_editor_absoluteY="360dp"
+        tools:layout_editor_absoluteX="268dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:id="@+id/tvQtdDoceLeite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="doce leite"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/tvQtdboloChocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chocolate"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/tvQtdCremePapaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="creme"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/tvQtdMilkshakeBaunilha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="baunilha"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/tvQtdMilkshakeChocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chocolate"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/tvQtdPetitChocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="petit"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/tvQtdTortaHolandesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="torta"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <TextView
+        android:id="@+id/tvQtdAcai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="açai"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <TextView
+        android:id="@+id/tvQtdSundaeMorango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sundae"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="480dp" />
+</android.support.constraint.ConstraintLayout>

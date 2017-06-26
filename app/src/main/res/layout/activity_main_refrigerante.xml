@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aulaltp3.com.myrestaurant.Refrigerante">
+
+    <ImageButton
+        android:id="@+id/coca"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/coca"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/cocaLata" />
+
+    <ImageButton
+        android:id="@+id/cocaLata"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/cocalata"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:id="@+id/tvQtdCoca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="coca 600 ml"
+        android:layout_below="@+id/coca"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvQtdCocaLata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:text="coca lata"
+        android:layout_below="@+id/cocaLata"
+        android:layout_toStartOf="@+id/coca" />
+
+    <ImageButton
+        android:id="@+id/guaranaLata"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/guararanalata"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/tvQtdCocaLata"
+        android:layout_toStartOf="@+id/coca"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/tvQtdGuaranaLata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/guaranaLata"
+        android:layout_below="@+id/guaranaLata"
+        android:layout_marginStart="19dp"
+        android:text="guarana lata" />
+
+    <ImageButton
+        android:id="@+id/cocaLataZero"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/cocazerolata"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tvQtdCocaLataZero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/cocaLataZero"
+        android:layout_marginEnd="26dp"
+        android:text="coca zero" />
+
+    <ImageButton
+        android:id="@+id/guarana600"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/guarana600"
+        android:background="@null"
+        android:scaleType="fitCenter"
+
+        android:layout_alignTop="@+id/guaranaLata"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvQtdGuarana600"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guaranaLata"
+        android:layout_centerHorizontal="true"
+        android:text="guarana 600 ml" />
+
+    <ImageButton
+        android:id="@+id/guaranaLata600"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/guaranalatazero"
+        android:layout_alignTop="@+id/guarana600"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:scaleType="fitCenter"
+
+        />
+
+    <TextView
+        android:id="@+id/tvQtdGuaranaLataZero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvQtdCocaLataZero"
+        android:layout_alignTop="@+id/tvQtdGuarana600"
+        android:text="guarana zero" />
+
+    <TextView
+        android:id="@+id/tvQtdFantaLata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvQtdCocaLata"
+        android:layout_below="@+id/fantaLata"
+        android:layout_marginTop="13dp"
+        android:text="fanta lata" />
+
+    <ImageButton
+        android:id="@+id/fanta600"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/fanta600"
+        android:background="@null"
+        android:scaleType="fitCenter"
+
+        android:layout_alignTop="@+id/fantaLata"
+        android:layout_alignStart="@+id/guarana600" />
+
+    <TextView
+        android:id="@+id/tvQtdFanta600"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvQtdFantaLata"
+        android:layout_centerHorizontal="true"
+        android:text="fanta 600" />
+
+    <ImageButton
+        android:id="@+id/fantazero"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/fantazero"
+        android:background="@null"
+        android:scaleType="fitCenter"
+
+        android:layout_above="@+id/tvQtdFanta600"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tvQtdFantaZero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fanta zero"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvQtdGuaranaZero"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/btenviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvQtdGuarana600"
+        android:layout_marginTop="69dp"
+        android:layout_toEndOf="@+id/guaranaLata"
+        android:text="Enviar" />
+
+
+</RelativeLayout>
