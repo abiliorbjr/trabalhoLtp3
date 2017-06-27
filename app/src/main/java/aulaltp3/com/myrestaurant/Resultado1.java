@@ -2,6 +2,10 @@ package aulaltp3.com.myrestaurant;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
+import android.view.View;
+import aulaltp3.com.myrestaurant.R;
 
 public class Resultado1 extends AppCompatActivity {
 

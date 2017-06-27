@@ -16,12 +16,12 @@
         android:layout_marginTop="30dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imvLogoBurguer"
         android:layout_width="280dp"
         android:layout_height="280dp"
-        app:srcCompat="@drawable/logoburguer"
-        android:layout_marginBottom="89dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="89dp"
+        app:srcCompat="@drawable/logoburguer" />
 
 </RelativeLayout>

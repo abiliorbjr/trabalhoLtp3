@@ -10,6 +10,7 @@ import android.widget.TextView;
 import aulaltp3.com.myrestaurant.Hamburguer;
 
 
+
 /**
  * Created by AbilioJunior on 30/05/2017.
  */
@@ -39,11 +40,11 @@ public class Hamburguer extends AppCompatActivity {
          btnCadastrarHamburguer =(Button) findViewById(R.id.btnCadastrarHamburguer);
                 btnCadastrarHamburguer.setOnClickListener (new View.OnClickListener(){
                     public void onClick(View v){
-                        
+                        Integer qtdHamburgueres = Integer.parseInt(tvQtdtripo.getText().toString());
                     }
                 }
 
-            }
+
         });
 
 
