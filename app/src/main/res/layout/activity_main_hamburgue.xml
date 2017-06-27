@@ -178,11 +178,11 @@
         android:text="baguete" />
 
     <Button
-        android:id="@+id/btnVoltarHamburguer"
+        android:id="@+id/btnCadastrarHamburguer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/TvQtdsanduicheSaladaFrango"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="11dp"
-        android:text="Voltar" />
+        android:text="Mandar" />
 </RelativeLayout>
