@@ -1,5 +1,6 @@
 package aulaltp3.com.myrestaurant;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -26,7 +27,7 @@ public class Hamburguer extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_hamburgue);
-
+.
         hamburguerTriplo = (ImageButton) findViewById(R.id.hamburguerTriplo);
         tvQtdtripo       = (TextView) findViewById(R.id.qtdTripo);
 
@@ -55,3 +56,15 @@ public class Hamburguer extends AppCompatActivity {
 
     }
 }
+
+
+    public void onClick (View v)
+    {
+        Intent it = new Intent(this,Resultado1);
+
+        Intent it = new Intent(this,Resultado1.class)
+            it.putExtra("Nome", tvQtdtripo.getText().toString());
+        startActivity(it);
+
+
+    }
