@@ -77,7 +77,7 @@ public class Refrigerante  extends AppCompatActivity {
 
         private EditText nome;
         private EditText quantidade;
-        private Button btenviar;
+        private Button btnEnviarRefrigerante;
 
 
             nome = (EditText) findViewById(R.id.cocaLata);

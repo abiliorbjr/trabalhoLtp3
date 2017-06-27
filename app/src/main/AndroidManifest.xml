@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="aulaltp3.com.myrestaurant">
 
-    <application
+    <application>
         android:allowBackup="true"
         android:icon="@drawable/logoburguer"
         android:label="@string/app_name"
@@ -15,15 +15,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <activity android:name=".Menu">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                </intent-filter>
+            </activity>
         </activity>
         <activity android:name=".Hamburguer">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Menu">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -44,14 +43,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Resultado">
+        <activity android:name=".Resultado1">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Resultado1"></activity>
     </application>
 
 </manifest>

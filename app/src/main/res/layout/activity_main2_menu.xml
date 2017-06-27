@@ -6,17 +6,6 @@
     android:layout_height="match_parent"
     tools:context="aulaltp3.com.myrestaurant.Menu">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="199dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="191dp" />
-
     <ImageButton
         android:id="@+id/iBtnMenuSanduiches"
         android:layout_width="100dp"
@@ -49,5 +38,17 @@
         android:scaleType="fitCenter"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/logoburguer"
+        android:layout_marginBottom="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        />
 
 </RelativeLayout>
